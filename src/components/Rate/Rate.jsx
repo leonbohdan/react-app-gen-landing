@@ -16,7 +16,6 @@ export const Rate = () => {
     getCrypto();
   }, []);
 
-  console.log(crypto);
   return (
     <>
       <table className="table is-narrow is-hoverable is-fullwidth">

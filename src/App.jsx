@@ -3,13 +3,15 @@ import './App.scss';
 import 'bulma';
 import '@fortawesome/fontawesome-free';
 import { Rate } from './components/Rate/Rate';
+import { Header } from './components/Header/Header';
 
 function App() {
 
   return (
     <div className="App">
+      
       <div className="container">
-        <h1>App</h1>
+        <Header />
         <Rate />
       </div>
     </div>

@@ -1,0 +1,17 @@
+.header {
+  position: relative;
+  background-image: url(../../images/top-banner.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1170px;
+  // z-index: -1;
+
+  &__img {
+    overflow: hidden;
+    position: absolute;
+    top: 100px;
+    // right: -150px;
+    right: -10%;
+    transform: scale(0.8);
+  }
+}

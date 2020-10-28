@@ -1,0 +1,23 @@
+.navbar {
+  position: relative;
+  top: 20px;
+  background-color: transparent;
+  margin: 0 30px
+}
+
+.navbar-item {
+  color: white;
+}
+
+.navbar-item img {
+  max-height: 15rem;
+}
+
+.img {
+  position: relative;
+  background-image: url(../../images/logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60px;
+  height: 45px;
+}
