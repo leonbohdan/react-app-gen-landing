@@ -1,0 +1,78 @@
+.products {
+
+  // &__content {
+  //   display: grid;
+  //   grid-template-columns: 1fr 1fr;
+  // }
+
+  // &__pointers {
+  //   position: absolute;
+  // }
+}
+
+.hero1 {
+  position: relative;
+  min-height: 650px;
+
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  &__pointers {
+    position: absolute;
+  }
+}
+
+.hero2 {
+  position: relative;
+  min-height: 650px;
+
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  &__pointers {
+    position: absolute;
+  }
+}
+
+.hero3 {
+  position: relative;
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+
+  background-image: url(../../images/bitcoin-big.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 530px;
+  height: 370px;
+
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 110px;
+    align-items: center;
+  }
+
+  &__pointers {
+    position: absolute;
+    top: 180px;
+    left: 60%;
+  }
+
+  &__left {
+    width: 480px;
+  }
+
+  &__right {
+    background-image: url(../../images/screen3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 530px;
+    height: 370px;
+    filter: drop-shadow(0px 20px 30px rgba(0, 0, 0, 0.13));
+  }
+}

@@ -6,7 +6,7 @@ import { Rate } from './components/Rate/Rate';
 import { Header } from './components/Header/Header';
 import { About } from './components/About/About';
 import { Footer } from './components/Footer/Footer';
-import { PointerBox } from './components/PointerBox/PointerBox';
+import { Products } from './components/Products/Products';
 
 function App() {
 
@@ -14,8 +14,8 @@ function App() {
     <div className="App">
       <div className="container">
         <Header />
-        <PointerBox />
         <About />
+        <Products />
         <Rate />
         <Footer />
       </div>
