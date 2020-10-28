@@ -31,7 +31,7 @@ export const Nav = () => {
           className={`navbar-menu ${isActive ? "is-active" : ""}`}
         >
           <div className="navbar-end">
-            <a class="navbar-item" href="#about">
+            <a className="navbar-item" href="#about">
               About
             </a>
             <a className="navbar-item" href="#products">

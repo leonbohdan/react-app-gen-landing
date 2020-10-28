@@ -4,7 +4,7 @@ import './Footer.scss';
 export const Footer = () => {
   return (
     <>
-      <footer class="footer" id="support">
+      <footer className="footer" id="support">
         <div className="footer__top">
           <div className="footer__left">
             <div className="top">Contact Us</div>
@@ -35,7 +35,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <hr class="navbar-divider"></hr>
+        <hr className="navbar-divider"></hr>
 
         <div className="footer__bottom">
           <div className="footer__left">

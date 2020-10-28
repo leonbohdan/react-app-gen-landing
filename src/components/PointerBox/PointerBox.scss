@@ -1,0 +1,20 @@
+.pointers {
+  // position: fixed;
+  // top: 0;
+  // left: 0;
+  display: grid;
+  grid-row-gap: 5px;
+  grid-column-gap: 8px;
+  grid-template-rows: repeat(30, 1fr);
+  grid-template-columns: repeat(20, 1fr);
+  width: 275px;
+  height: 400px;
+}
+
+.point {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #C4C4C4;
+  margin: 4px 6px;
+}

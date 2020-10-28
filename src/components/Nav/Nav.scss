@@ -7,6 +7,7 @@
 
 .navbar-item {
   color: white;
+  transition: color 0.3s ease-in-out;
 
   &:hover {
     color: #076572;
