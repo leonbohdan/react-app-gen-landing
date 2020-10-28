@@ -17,8 +17,8 @@ export const Rate = () => {
   }, []);
 
   return (
-    <>
-      <table className="table is-narrow is-hoverable is-fullwidth">
+    <div className="table-container" id="rate">
+      <table className="table is-narrow is-hoverable">
         <thead>
           <tr>
             <th>
@@ -50,6 +50,6 @@ export const Rate = () => {
           ))}
         </tbody>
       </table>
-    </>
+    </div>
   );
 }

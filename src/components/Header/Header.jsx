@@ -5,7 +5,7 @@ import { Nav } from '../Nav/Nav';
 
 export const Header = () => {
   return (
-    <div className="header">
+    <div className="header" id="home">
       <Nav />
       <div className="header__people">
         <img className='header__img' src={people} alt="people" width={1100} height={300} />

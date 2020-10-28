@@ -1,0 +1,18 @@
+.table-container {
+  position: relative;
+  min-height: 700px;
+  width: 100%;
+  background-color: #FAFAFA;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.table {
+  position: absolute;
+  margin: 65px 5px 240px;
+  max-width: 1090px;
+  min-width: 400px;
+}

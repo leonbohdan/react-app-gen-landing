@@ -4,7 +4,7 @@ import './About.scss';
 export const About = () => {
   return (
     <>
-      <section className="hero">
+      <section className="hero" id="about">
         <div className="hero-body">
           <div className="hero-body">
             <div className="container has-text-centered">

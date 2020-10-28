@@ -5,6 +5,7 @@ import '@fortawesome/fontawesome-free';
 import { Rate } from './components/Rate/Rate';
 import { Header } from './components/Header/Header';
 import { About } from './components/About/About';
+import { Footer } from './components/Footer/Footer';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Header />
         <About />
         <Rate />
+        <Footer />
       </div>
     </div>
   );

@@ -1,0 +1,107 @@
+.footer {
+  background: #30292F;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+
+  &__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__link {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Nunito;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+
+    &:hover {
+      color: #e8e8e8;
+    }
+
+    &--left {
+      margin-right: 15px;
+    }
+  }
+
+  &__input {
+    font-family: Avenir;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(62, 61, 61, 0.5);
+  }
+
+  &__button {
+    font-family: Avenir;
+    font-size: 14px;
+    line-height: 16px;
+    background: #1768AC;
+  }
+}
+
+.top {
+  display: flex;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163.68%;
+
+  &--link {
+    font-family: Nunito;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.telegram {
+  background-image: url(../../images/telegram.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 20px;
+  width: 20px;
+
+  &:hover {
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+  }
+}
+
+.twitter {
+  background-image: url(../../images/twitter-24.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 20px;
+  width: 20px;
+
+  &:hover {
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+  }
+}
+
+.facebook {
+  background-image: url(../../images/facebook.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 20px;
+  width: 20px;
+
+  &:hover {
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+  }
+}
