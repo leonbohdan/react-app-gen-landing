@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-app-gen-landing/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/react-app-gen-landing/static/js/main.dd46795d.chunk.js",
-    "main.js.map": "/react-app-gen-landing/static/js/main.dd46795d.chunk.js.map",
-    "runtime-main.js": "/react-app-gen-landing/static/js/runtime-main.81ae4576.js",
-    "runtime-main.js.map": "/react-app-gen-landing/static/js/runtime-main.81ae4576.js.map",
-    "static/js/2.9f1d59a6.chunk.js": "/react-app-gen-landing/static/js/2.9f1d59a6.chunk.js",
-    "static/js/2.9f1d59a6.chunk.js.map": "/react-app-gen-landing/static/js/2.9f1d59a6.chunk.js.map",
-    "static/js/3.3798789c.chunk.js": "/react-app-gen-landing/static/js/3.3798789c.chunk.js",
-    "static/js/3.3798789c.chunk.js.map": "/react-app-gen-landing/static/js/3.3798789c.chunk.js.map",
+    "main.css": "/react-app-gen-landing/static/css/main.4f98e09b.chunk.css",
+    "main.js": "/react-app-gen-landing/static/js/main.d31cd503.chunk.js",
+    "main.js.map": "/react-app-gen-landing/static/js/main.d31cd503.chunk.js.map",
+    "runtime-main.js": "/react-app-gen-landing/static/js/runtime-main.d03d2f1e.js",
+    "runtime-main.js.map": "/react-app-gen-landing/static/js/runtime-main.d03d2f1e.js.map",
+    "static/css/2.c2654f76.chunk.css": "/react-app-gen-landing/static/css/2.c2654f76.chunk.css",
+    "static/js/2.739ab332.chunk.js": "/react-app-gen-landing/static/js/2.739ab332.chunk.js",
+    "static/js/2.739ab332.chunk.js.map": "/react-app-gen-landing/static/js/2.739ab332.chunk.js.map",
     "index.html": "/react-app-gen-landing/index.html",
-    "static/css/main.ab7136cd.chunk.css.map": "/react-app-gen-landing/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.9f1d59a6.chunk.js.LICENSE.txt": "/react-app-gen-landing/static/js/2.9f1d59a6.chunk.js.LICENSE.txt",
-    "static/media/logo.103b5fa1.svg": "/react-app-gen-landing/static/media/logo.103b5fa1.svg"
+    "static/css/2.c2654f76.chunk.css.map": "/react-app-gen-landing/static/css/2.c2654f76.chunk.css.map",
+    "static/css/main.4f98e09b.chunk.css.map": "/react-app-gen-landing/static/css/main.4f98e09b.chunk.css.map",
+    "static/js/2.739ab332.chunk.js.LICENSE.txt": "/react-app-gen-landing/static/js/2.739ab332.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.81ae4576.js",
-    "static/js/2.9f1d59a6.chunk.js",
-    "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.dd46795d.chunk.js"
+    "static/js/runtime-main.d03d2f1e.js",
+    "static/css/2.c2654f76.chunk.css",
+    "static/js/2.739ab332.chunk.js",
+    "static/css/main.4f98e09b.chunk.css",
+    "static/js/main.d31cd503.chunk.js"
   ]
 }
