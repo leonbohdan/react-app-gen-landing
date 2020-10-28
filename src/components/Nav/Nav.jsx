@@ -2,31 +2,45 @@ import { useState, useEffect } from 'react';
 import './Nav.scss';
 
 export const Nav = () => {
+  const [isActive, setIsActive] = useState(false);
+
   return (
     <>
       <nav className="navbar is-transparent">
         <div className="navbar-brand">
-          <a className="navbar-item img" href="#home">
-          </a>
-          <div className="navbar-burger burger" data-target="Transparent">
-            <span></span>
-            <span></span>
-            <span></span>
+          <a className="navbar-item img" href="#home" />
+          <div
+            data-target="Transparent"
+            role="button"
+            className={`navbar-burger burger ${isActive ? "is-active" : ""}`}
+            aria-label="menu"
+            aria-expanded="false"
+            href="#"
+            onClick={() => {
+              setIsActive(!isActive);
+            }}
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
           </div>
         </div>
 
-        <div id="Transparent" class="navbar-menu">
-          <div class="navbar-end">
+        <div
+          id="Transparent"
+          className={`navbar-menu ${isActive ? "is-active" : ""}`}
+        >
+          <div className="navbar-end">
             <a class="navbar-item" href="#about">
               About
             </a>
-            <a class="navbar-item" href="#products">
+            <a className="navbar-item" href="#products">
               Products
             </a>
-            <a class="navbar-item" href="#rate">
+            <a className="navbar-item" href="#rate">
               Rate
             </a>
-            <a class="navbar-item" href="#support">
+            <a className="navbar-item" href="#support">
               Support
             </a>
           </div>
