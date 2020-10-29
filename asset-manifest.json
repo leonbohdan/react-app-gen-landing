@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-app-gen-landing/static/css/main.02c38d96.chunk.css",
-    "main.js": "/react-app-gen-landing/static/js/main.611edc51.chunk.js",
-    "main.js.map": "/react-app-gen-landing/static/js/main.611edc51.chunk.js.map",
+    "main.css": "/react-app-gen-landing/static/css/main.646e796e.chunk.css",
+    "main.js": "/react-app-gen-landing/static/js/main.d71d63d5.chunk.js",
+    "main.js.map": "/react-app-gen-landing/static/js/main.d71d63d5.chunk.js.map",
     "runtime-main.js": "/react-app-gen-landing/static/js/runtime-main.d03d2f1e.js",
     "runtime-main.js.map": "/react-app-gen-landing/static/js/runtime-main.d03d2f1e.js.map",
     "static/css/2.c2654f76.chunk.css": "/react-app-gen-landing/static/css/2.c2654f76.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.6d2c9eea.chunk.js.map": "/react-app-gen-landing/static/js/2.6d2c9eea.chunk.js.map",
     "index.html": "/react-app-gen-landing/index.html",
     "static/css/2.c2654f76.chunk.css.map": "/react-app-gen-landing/static/css/2.c2654f76.chunk.css.map",
-    "static/css/main.02c38d96.chunk.css.map": "/react-app-gen-landing/static/css/main.02c38d96.chunk.css.map",
+    "static/css/main.646e796e.chunk.css.map": "/react-app-gen-landing/static/css/main.646e796e.chunk.css.map",
     "static/js/2.6d2c9eea.chunk.js.LICENSE.txt": "/react-app-gen-landing/static/js/2.6d2c9eea.chunk.js.LICENSE.txt",
     "static/media/Products.scss": "/react-app-gen-landing/static/media/screen3.6e7f3c70.png",
     "static/media/Header.scss": "/react-app-gen-landing/static/media/top-banner.960b8f28.png",
@@ -20,7 +20,7 @@
     "static/js/runtime-main.d03d2f1e.js",
     "static/css/2.c2654f76.chunk.css",
     "static/js/2.6d2c9eea.chunk.js",
-    "static/css/main.02c38d96.chunk.css",
-    "static/js/main.611edc51.chunk.js"
+    "static/css/main.646e796e.chunk.css",
+    "static/js/main.d71d63d5.chunk.js"
   ]
 }
