@@ -19,7 +19,6 @@ export const Header = () => {
 
       <section className="header__promo">
         <div className="header__body">
-          {/* <div className="hero-body"> */}
           <div className="container">
             <h1 className="header__title">
               Buy and Sell Cryptos easier than ever
@@ -29,7 +28,6 @@ export const Header = () => {
               transactions in a smart and easy way.
             </p>
           </div>
-          {/* </div> */}
         </div>
       </section>
     </div>

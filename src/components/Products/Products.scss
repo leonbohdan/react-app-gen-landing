@@ -17,10 +17,40 @@
   &__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+    align-items: center;
   }
 
   &__pointers {
     position: absolute;
+    top: 50px;
+  }
+
+  &__right {
+    position: relative;
+  }
+
+  &__img1 {
+    background-image: url(../../images/screen1_1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 317px;
+    height: 256px;
+    filter: drop-shadow(0px 20px 30px rgba(0, 0, 0, 0.13));
+    border-radius: 5px;
+  }
+
+  &__img2 {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    background-image: url(../../images/screen1_2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 310px;
+    height: 270px;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
   }
 }
 
@@ -29,12 +59,28 @@
   min-height: 650px;
 
   &__content {
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+    align-items: center;
   }
 
   &__pointers {
     position: absolute;
+  }
+
+  &__left {
+    position: relative;
+    top: 60px;
+    left: 60px;
+    background-image: url(../../images/screen2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 530px;
+    height: 370px;
+    filter: drop-shadow(0px 20px 30px rgba(0, 0, 0, 0.13));
   }
 }
 
@@ -60,11 +106,61 @@
   &__pointers {
     position: absolute;
     top: 180px;
-    left: 60%;
+    left: 70%;
   }
 
   &__left {
     width: 480px;
+  }
+
+  &__title {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 68px;
+    display: flex;
+    align-items: center;
+    color: #076572;
+  }
+
+  &__text {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    color: #282D32;
+  }
+
+  &__link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #333333;
+
+    &--link {
+      color: #333333;
+
+      &::after {
+        position: absolute;
+        top: 2px;
+        content: url(../../images/arrow-right-blue.png);
+        display: inline-block;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      &:hover::after {
+        content: url(../../images/arrow-right-orange.png);
+        display: inline-block;
+        transform: translateX(2px);
+      }
+    }
   }
 
   &__right {
