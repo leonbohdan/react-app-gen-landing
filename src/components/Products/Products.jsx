@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react';
 import './Products.scss';
 import { PointerBox } from '../PointerBox/PointerBox';
 

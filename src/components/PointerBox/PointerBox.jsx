@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import './PointerBox.scss';
 
 export const PointerBox = () => {

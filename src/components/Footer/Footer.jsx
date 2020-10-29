@@ -1,7 +1,33 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import './Footer.scss';
 
 export const Footer = () => {
+  const [query, setQuery] = useState('');
+  const [email, setEmail] = useState('');
+  const [isDanger, setIsDanger] = useState(false);
+
+  console.log(query);
+  console.log(email);
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    if (validateEmail(query)) {
+      setEmail(query);
+      setQuery("");
+      setIsDanger(false);
+    } else {
+      setIsDanger(true);
+    }
+  };
+
+  const validateEmail = (email) => {
+    const pattern = /[a-zA-Z0-9]+[\.]?([a-zA-Z0-9]+)?[\@][a-z]{3,9}[\.][a-z]{2,5}/g;
+    const result = pattern.test(email);
+
+    return result;
+  }
+
   return (
     <>
       <footer className="footer" id="support">
@@ -17,20 +43,31 @@ export const Footer = () => {
           <div className="footer__right">
             <div className="top top--link">Get Updates from us</div>
             <div className="bottom">
-              <div className="field has-addons">
+              <form
+                className="field has-addons"
+                onSubmit={handleSubmit}
+              >
                 <div className="control">
                   <input
-                    className="footer__input input"
+                    className={`footer__input input ${isDanger ? 'is-danger' : ''}`}
                     type="email"
                     placeholder="Type Email address"
+                    required
+                    value={query}
+                    onChange={(event) => {
+                      setQuery(event.target.value);
+                    }}
                   />
                 </div>
                 <div className="control">
-                  <button className="button is-info footer__button">
+                  <button
+                    className="button is-info footer__button"
+                    type="submit"
+                  >
                     Send
                   </button>
                 </div>
-              </div>
+              </form>
             </div>
           </div>
         </div>

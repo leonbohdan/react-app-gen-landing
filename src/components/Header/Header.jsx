@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import './Header.scss';
 import people from '../../images//top-people.png';
 import { Nav } from '../Nav/Nav';
