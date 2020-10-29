@@ -5,7 +5,7 @@ import { PointerBox } from '../PointerBox/PointerBox';
 export const Products = () => {
   return (
     <div className="products" id="products">
-      <section className="hero1">
+      <section className="hero hero1">
         <div className="hero1__pointers">
           <PointerBox />
         </div>
