@@ -49,6 +49,9 @@ export const Nav = () => {
         <div
           id="Transparent"
           className={`navbar-menu ${isActive ? "is-active" : ""}`}
+          onClick={() => {
+            setIsActive(false);
+          }}
         >
           <div className="navbar-end">
             <a className="navbar-item" href="#about">

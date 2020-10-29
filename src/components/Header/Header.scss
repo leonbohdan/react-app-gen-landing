@@ -21,6 +21,10 @@
     height: 500px;
   }
 
+  @media (max-width: 400px) {
+    height: 400px;
+  }
+
   &__img {
     overflow: hidden;
     position: absolute;
@@ -38,6 +42,10 @@
 
     @media (max-width: 1024px) {
       margin: 50px 60px 0 60px;
+    }
+
+    @media (max-width: 550px) {
+      margin: 10px 20px 0 20px;
     }
   }
 
@@ -72,6 +80,11 @@
       font-weight: 800;
       font-size: 20px;
       line-height: 70px;
+    }
+
+    @media (max-width: 550px) {
+      font-size: 15px;
+      line-height: 50px;
     }
   }
 
@@ -113,6 +126,13 @@
       font-size: 15px;
       line-height: 28px;
       width: 285px;
+      height: 185px;
+    }
+
+    @media (max-width: 550px) {
+      font-size: 12px;
+      line-height: 20px;
+      width: 200px;
       height: 185px;
     }
   }
