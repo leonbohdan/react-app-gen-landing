@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './Footer.scss';
+import Cookies from 'js-cookie';
 
 export const Footer = () => {
   const [query, setQuery] = useState('');
@@ -16,6 +17,7 @@ export const Footer = () => {
       setEmail(query);
       setQuery("");
       setIsDanger(false);
+      Cookies.set('email', query, { expires: 30 });
     } else {
       setIsDanger(true);
     }
