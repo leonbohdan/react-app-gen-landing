@@ -1,8 +1,7 @@
-import { useState } from 'react';
 import './PointerBox.scss';
 
 export const PointerBox = () => {
-  const [pointers, setPointers] = useState([...Array(500)]);
+  const pointers = [...Array(500)];
 
   return (
     <div className="pointers">

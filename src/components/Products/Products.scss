@@ -1,18 +1,10 @@
-.products {
-
-  // &__content {
-  //   display: grid;
-  //   grid-template-columns: 1fr 1fr;
-  // }
-
-  // &__pointers {
-  //   position: absolute;
-  // }
-}
-
 .hero1 {
   position: relative;
   min-height: 650px;
+
+  @media (max-width: 960px) {
+    min-height: 450px;
+  }
 
   &__content {
     display: grid;
@@ -120,8 +112,13 @@
   min-height: 650px;
   background-color: #FAFAFA;
 
+  @media (max-width: 960px) {
+    min-height: 450px;
+  }
+
   &__content {
     position: relative;
+    z-index: 1;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 50px;
@@ -140,6 +137,7 @@
 
   &__pointers {
     position: absolute;
+    z-index: 1;
 
     @media (max-width: 960px) {
       left: 10%;
@@ -347,9 +345,16 @@
       height: 270px;
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: 1023px) {
       width: 330px;
       height: 200px;
+      left: 50%;
+    }
+
+    @media (max-width: 630px) {
+      width: 330px;
+      height: 200px;
+      left: 10%;
     }
 
     @media (max-width: 400px) {

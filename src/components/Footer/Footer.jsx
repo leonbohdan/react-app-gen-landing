@@ -7,9 +7,6 @@ export const Footer = () => {
   const [email, setEmail] = useState('');
   const [isDanger, setIsDanger] = useState(false);
 
-  console.log(query);
-  console.log(email);
-
   const handleSubmit = (event) => {
     event.preventDefault();
 
@@ -37,9 +34,9 @@ export const Footer = () => {
           <div className="footer__left">
             <div className="top">Contact Us</div>
             <div className="bottom">
-              <a className="telegram" href="https://web.telegram.org/"></a>
-              <a className="twitter" href="https://twitter.com/"></a>
-              <a className="facebook" href="https://www.facebook.com/"></a>
+              <a className="telegram" href="https://web.telegram.org/"> </a>
+              <a className="twitter" href="https://twitter.com/"> </a>
+              <a className="facebook" href="https://www.facebook.com/"> </a>
             </div>
           </div>
           <div className="footer__right">

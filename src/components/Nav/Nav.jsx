@@ -28,7 +28,7 @@ export const Nav = () => {
     <>
       <nav className="navbar is-transparent">
         <div className="navbar-brand">
-          <a className="navbar-item img" href="#home" />
+          <a className="navbar-item img" href="#home"> </a>
           <div
             data-target="Transparent"
             role="button"

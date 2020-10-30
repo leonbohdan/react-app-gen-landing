@@ -10,4 +10,4 @@ export async function getCrypto() {
   return result.data;
 }
 
-console.log(getCrypto());
+getCrypto();

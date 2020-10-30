@@ -7,7 +7,6 @@ import { Footer } from './components/Footer/Footer';
 import { Products } from './components/Products/Products';
 
 function App() {
-
   return (
     <div className="App">
       <div className="container">
