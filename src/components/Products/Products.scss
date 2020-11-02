@@ -1,0 +1,365 @@
+.hero1 {
+  position: relative;
+  min-height: 650px;
+
+  @media (max-width: 960px) {
+    min-height: 450px;
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+    align-items: center;
+    margin: 0 60px;
+
+    @media (max-width: 960px) {
+      grid-template-columns: 1fr;
+      max-width: 600px;
+    }
+
+    @media (max-width: 550px) {
+      margin: 0 20px;
+    }
+  }
+
+  &__pointers {
+    position: absolute;
+    top: 50px;
+    left: 0;
+
+    @media (max-width: 960px) {
+      left: 10%;
+    }
+
+    @media (max-width: 550px) {
+      display: none;
+    }
+  }
+
+  &__right {
+    position: relative;
+    width: 310px;
+    height: 270px;
+    top: 20px;
+
+    @media (max-width: 1024px) {
+      top: 60px;
+    }
+
+    @media (max-width: 960px) {
+      left: 30%;
+      top: 5px;
+    }
+
+    @media (max-width: 550px) {
+      left: 10%;
+      top: 5px;
+    }
+
+    @media (max-width: 400px) {
+      left: 0%;
+    }
+  }
+
+  &__img1 {
+    position: relative;
+    top: 0%;
+    background-image: url(../../images/screen1_1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 317px;
+    height: 256px;
+    filter: drop-shadow(0px 20px 30px rgba(0, 0, 0, 0.13));
+    border-radius: 5px;
+
+    @media (max-width: 1215px) {
+      max-width: 180px;
+      height: 156px;
+    }
+  }
+
+  &__img2 {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    background-image: url(../../images/screen1_2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 310px;
+    height: 270px;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+
+    @media (max-width: 1215px) {
+      top: 40%;
+      left: 40%;
+      max-width: 180px;
+      height: 156px;
+    }
+
+    @media (max-width: 1024px) {
+      top: 20%;
+      left: 40%;
+      max-width: 180px;
+      height: 156px;
+    }
+  }
+}
+
+.hero2 {
+  position: relative;
+  min-height: 650px;
+  background-color: #FAFAFA;
+
+  @media (max-width: 960px) {
+    min-height: 450px;
+  }
+
+  &__content {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+    align-items: center;
+    margin: 0 60px;
+
+    @media (max-width: 960px) {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    @media (max-width: 550px) {
+      margin: 0 20px;
+    }
+  }
+
+  &__pointers {
+    position: absolute;
+    z-index: 1;
+
+    @media (max-width: 960px) {
+      left: 10%;
+    }
+
+    @media (max-width: 550px) {
+      display: none;
+    }
+  }
+
+  &__left {
+    position: relative;
+    top: 60px;
+    left: 60px;
+    background-image: url(../../images/screen2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 530px;
+    height: 370px;
+    filter: drop-shadow(0px 20px 30px rgba(0, 0, 0, 0.13));
+
+    @media (max-width: 1215px) {
+      width: 430px;
+      height: 270px;
+    }
+
+    @media (max-width: 1024px) {
+      width: 330px;
+      height: 200px;
+    }
+
+    @media (max-width: 960px) {
+      top: 0;
+    }
+
+    @media (max-width: 550px) {
+      left: 0;
+    }
+  }
+}
+
+.hero3 {
+  position: relative;
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+
+  background-image: url(../../images/bitcoin-big.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 530px;
+  height: 370px;
+
+  @media (max-width: 960px) {
+    background-image: none;
+    min-height: 450px;
+  }
+
+  @media (max-width: 550px) {
+    width: 330px;
+  }
+
+
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 80px;
+    align-items: center;
+    margin: 0 60px;
+
+    @media (max-width: 960px) {
+      grid-template-columns: 1fr;
+      max-width: 600px;
+    }
+
+    @media (max-width: 550px) {
+      margin: 0 20px;
+    }
+  }
+
+  &__pointers {
+    position: absolute;
+    top: 180px;
+    left: 70%;
+
+    @media (max-width: 960px) {
+      top: 50px;
+      left: 30%;
+    }
+
+    @media (max-width: 550px) {
+      display: none;
+    }
+  }
+
+  &__left {
+    width: 480px;
+
+    @media (max-width: 550px) {
+      max-width: 300px;
+    }
+  }
+
+  &__title {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 68px;
+    display: flex;
+    align-items: center;
+    color: #076572;
+
+    @media (max-width: 1024px) {
+      font-size: 40px;
+      line-height: 58px;
+    }
+
+    @media (max-width: 960px) {
+      font-size: 40px;
+      line-height: 58px;
+    }
+
+    @media (max-width: 670px) {
+      font-size: 30px;
+      line-height: 48px;
+    }
+  }
+
+  &__text {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    color: #282D32;
+
+    @media (max-width: 600px) {
+      font-size: 16px;
+      line-height: 25px;
+    }
+  }
+
+  &__link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #333333;
+
+    @media (max-width: 1215px) {
+      font-size: 40px;
+      line-height: 90px;
+    }
+
+    @media (max-width: 1024px) {
+      font-size: 40px;
+      line-height: 90px;
+    }
+
+    @media (max-width: 960px) {
+      font-size: 30px;
+      line-height: 90px;
+    }
+
+    @media (max-width: 670px) {
+      font-size: 20px;
+      line-height: 70px;
+    }
+
+    &--link {
+      color: #333333;
+
+      &::after {
+        position: absolute;
+        top: 2px;
+        content: url(../../images/arrow-right-blue.svg);
+        display: inline-block;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      &:hover::after {
+        content: url(../../images/arrow-right-orange.svg);
+        display: inline-block;
+        transform: translateX(2px);
+      }
+    }
+  }
+
+  &__right {
+    position: relative;
+    background-image: url(../../images/screen3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 530px;
+    height: 370px;
+    filter: drop-shadow(0px 20px 30px rgba(0, 0, 0, 0.13));
+
+    @media (max-width: 1215px) {
+      width: 350px;
+      height: 270px;
+    }
+
+    @media (max-width: 1023px) {
+      width: 330px;
+      height: 200px;
+      left: 5%;
+    }
+
+    @media (max-width: 630px) {
+      width: 330px;
+      height: 200px;
+      left: 10%;
+    }
+
+    @media (max-width: 400px) {
+      width: 300px;
+      height: 200px;
+    }
+  }
+}
