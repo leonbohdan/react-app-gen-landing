@@ -2,10 +2,6 @@
 
 - [DEMO](https://leonbohdan.github.io/react-app-gen-landing/)
 
-- [Task](https://drive.google.com/file/d/1f_oGhCRY2gM8srUfEGFKKyci6xjorLTy/view?usp=sharing)
-
-- [Mockup](https://www.figma.com/file/wlweQdddpw57L6UPfuRd10/Crypto-Landing-Page?node-id=0%3A1)
-
 - [Code](https://github.com/leonbohdan/react-app-gen-landing/tree/develop)
 
 # About
