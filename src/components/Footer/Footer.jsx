@@ -74,11 +74,11 @@ export const Footer = () => {
         <hr className="navbar-divider"></hr>
 
         <div className="footer__bottom">
-          <div className="footer__left">
-            <a className="footer__link footer__link--left" href="#about">
+          <div className="footer__left footer__left--bottom">
+            <a className="footer__link footer__link--small footer__link--left" href="#about">
               About Us
             </a>
-            <a className="footer__link" href="#support">
+            <a className="footer__link footer__link--small" href="#support">
               Contact Us
             </a>
           </div>

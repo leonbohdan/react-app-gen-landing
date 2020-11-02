@@ -318,13 +318,13 @@
       &::after {
         position: absolute;
         top: 2px;
-        content: url(../../images/arrow-right-blue.png);
+        content: url(../../images/arrow-right-blue.svg);
         display: inline-block;
         transition: transform 0.3s ease-in-out;
       }
 
       &:hover::after {
-        content: url(../../images/arrow-right-orange.png);
+        content: url(../../images/arrow-right-orange.svg);
         display: inline-block;
         transform: translateX(2px);
       }
